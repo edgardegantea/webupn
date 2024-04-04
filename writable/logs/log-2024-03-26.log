@@ -1,0 +1,331 @@
+INFO - 2024-03-26 00:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 00:22:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 00:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 00:26:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 00:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 00:26:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 00:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 00:27:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 00:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 00:27:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-26 06:03:49 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH/Controllers/RegistroController.php on line 42.
+ 1 APPPATH/Controllers/RegistroController.php(42): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:04:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:04:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-26 06:04:49 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH/Controllers/RegistroController.php on line 42.
+ 1 APPPATH/Controllers/RegistroController.php(42): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 06:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:05:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:05:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:06:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:06:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-26 06:39:28 --> Error: Call to undefined function csrfield()
+in APPPATH/Views/admin/publicaciones/create.php on line 10.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/PublicacionController.php(75): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->new()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:41:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-26 06:41:02 --> Error: Call to undefined function csr_field()
+in APPPATH/Views/admin/publicaciones/create.php on line 10.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/PublicacionController.php(75): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->new()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:41:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:41:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:41:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:43:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:43:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:43:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:43:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:45:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:45:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:45:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 06:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 06:46:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 16:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 16:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-26 22:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:09:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:12:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:13:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:13:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:14:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:18:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:18:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:26:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:28:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:29:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-26 22:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 22:30:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')

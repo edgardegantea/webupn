@@ -1,0 +1,54 @@
+ERROR - 2024-03-23 00:51:19 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'webupn' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'webupn' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-03-23 04:36:11 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/UsuarioController::class::index"
+in SYSTEMPATH/Router/Router.php on line 480.
+ 1 SYSTEMPATH/Router/Router.php(480): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName()
+ 2 SYSTEMPATH/Router/Router.php(187): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-23 05:57:23 --> mysqli_sql_exception: Unknown table 'webupn.publicaciones' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/Forge.php(648): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Database/Migrations/2024-03-23-004243_Publicacion.php(48): CodeIgniter\Database\Forge->dropTable()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(865): App\Database\Migrations\Publicacion->down()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(288): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/MigrateRollback.php(86): CodeIgniter\Database\MigrationRunner->regress()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/BaseCommand.php(115): CodeIgniter\CLI\Commands->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#13 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}

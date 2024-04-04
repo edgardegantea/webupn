@@ -1,0 +1,874 @@
+CRITICAL - 2024-03-25 15:59:04 --> ErrorException: Undefined variable $publicaciones
+in APPPATH/Views/admin/publicaciones/index.php on line 22.
+ 1 APPPATH/Views/admin/publicaciones/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/publicaciones/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/PublicacionController.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 17:42:50 --> ErrorException: Undefined variable $publicaciones
+in APPPATH/Views/admin/publicaciones/index.php on line 22.
+ 1 APPPATH/Views/admin/publicaciones/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/publicaciones/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/PublicacionController.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 17:43:06 --> mysqli_sql_exception: Table 'webupn.perfils' doesn't exist in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2024-03-25 17:43:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 17:43:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 17:43:07 --> [Caused by] mysqli_sql_exception: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:43:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:43:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 17:43:21 --> mysqli_sql_exception: Table 'webupn.perfils' doesn't exist in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2024-03-25 17:43:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 17:43:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 17:43:21 --> [Caused by] mysqli_sql_exception: Table 'webupn.perfils' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/Admin/UsuarioController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:49:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:49:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:50:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:50:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:53:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:53:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:53:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:53:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:54:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:54:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 17:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 17:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+WARNING - 2024-03-25 17:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$perfil is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 19:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 19:34:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 19:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 19:35:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 19:35:02 --> ErrorException: Undefined array key "apaterno"
+in APPPATH/Views/admin/usuarios/index.php on line 27.
+ 1 APPPATH/Views/admin/usuarios/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/usuarios/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 19:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 19:37:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 19:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 19:50:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 19:51:31 --> Error: Call to undefined function base_base_url()
+in APPPATH/Views/pages/registro.php on line 12.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/RegistroController.php(27): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->new()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 20:23:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`)) in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 20:23:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 20:23:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 20:23:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 20:28:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`)) in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 20:28:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 20:28:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 20:28:18 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webupn`.`usuarios`, CONSTRAINT `usuarios_perfil_foreign` FOREIGN KEY (`perfil`) REFERENCES `perfiles` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:05:56 --> CodeIgniter\Filters\Exceptions\FilterException: "noauth" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 352.
+ 1 SYSTEMPATH/Filters/Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:13:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UserController.php(54): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:21:06 --> CodeIgniter\Validation\Exceptions\ValidationException: "validateUser" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:21:49 --> CodeIgniter\Validation\Exceptions\ValidationException: "validateUser" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:22:03 --> CodeIgniter\Validation\Exceptions\ValidationException: "validateUser" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:23:11 --> Error: Class "App\Validation\UsuarioModel" not found
+in APPPATH/Validation/Userrules.php on line 8.
+ 1 SYSTEMPATH/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:23:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UserController.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-25 21:26:47 --> mysqli_sql_exception: Duplicate entry '' for key 'username' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 21:26:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:26:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:26:47 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-25 21:29:32 --> mysqli_sql_exception: Duplicate entry '' for key 'username' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 21:29:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:29:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:29:32 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 21:30:49 --> mysqli_sql_exception: Duplicate entry '' for key 'telefono' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 21:30:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'telefono'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:30:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'telefono'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:30:49 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'telefono'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(58): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-25 21:33:31 --> mysqli_sql_exception: Column 'telefono' cannot be null in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/RegistroController.php(59): CodeIgniter\Model->insert()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-25 21:33:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'telefono' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/RegistroController.php(59): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:33:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'telefono' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/RegistroController.php(59): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 21:33:31 --> [Caused by] mysqli_sql_exception: Column 'telefono' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/RegistroController.php(59): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\RegistroController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:39:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/AdminController.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\AdminController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:40:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/main.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/AdminController.php(27): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\AdminController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 21:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-25 21:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 21:41:59 --> ErrorException: Undefined variable $publicaciones
+in APPPATH/Views/admin/publicaciones/index.php on line 22.
+ 1 APPPATH/Views/admin/publicaciones/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/publicaciones/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/PublicacionController.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 22:02:07 --> Error: Class "App\Models\PublicacionModel" not found
+in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 22:03:20 --> Error: Class "App\Models\PublicacionModel" not found
+in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 22:03:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacion is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 22:03:51 --> ErrorException: Undefined variable $publicaciones
+in APPPATH/Views/admin/publicaciones/index.php on line 22.
+ 1 APPPATH/Views/admin/publicaciones/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/publicaciones/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/PublicacionController.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 22:07:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 22:07:11 --> Error: Call to undefined method App\Controllers\Admin\PublicacionController::publicacionModel()
+in APPPATH/Controllers/Admin/PublicacionController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-25 22:07:34 --> ErrorException: Undefined variable $publicacionModel
+in APPPATH/Controllers/Admin/PublicacionController.php on line 25.
+ 1 APPPATH/Controllers/Admin/PublicacionController.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 22:08:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 22:08:01 --> ErrorException: Undefined variable $publicacionModel
+in APPPATH/Controllers/Admin/PublicacionController.php on line 25.
+ 1 APPPATH/Controllers/Admin/PublicacionController.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 22:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 22:08:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:29:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:51:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:56:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:56:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-25 23:56:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/main.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/PublicacionController.php(50): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\PublicacionController->new()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:57:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-25 23:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-25 23:59:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$publicacionModel is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')

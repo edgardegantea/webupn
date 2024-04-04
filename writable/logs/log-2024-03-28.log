@@ -1,0 +1,628 @@
+CRITICAL - 2024-03-28 03:26:52 --> ErrorException: Undefined variable $thiS
+in APPPATH/Views/admin/template/main.php on line 269.
+ 1 APPPATH/Views/admin/template/main.php(269): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/template/main.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 03:27:02 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/admin/template/main.php on line 269.
+ 1 APPPATH/Views/admin/template/main.php(269): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/media/degante/DEVELOPMENT/en desarrollo/webupn/app/Views/admin/template/main.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 03:27:14 --> Error: Call to undefined method CodeIgniter\View\View::session()
+in APPPATH/Views/admin/template/main.php on line 269.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(10): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 03:27:30 --> Error: Call to undefined method CodeIgniter\View\View::session()
+in APPPATH/Views/admin/template/main.php on line 269.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/AdminController.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\AdminController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:36:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:36:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:37:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:37:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:38:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:38:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:38:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:38:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:39:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:39:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:39:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:40:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:41:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:41:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:42:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:43:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:46:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:46:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:47:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:48:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:48:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:49:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:49:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 03:49:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/usuarios/create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/UsuarioController.php(49): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->new()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:49:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:51:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:51:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:51:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:52:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:52:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:52:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:52:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 03:52:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/usuarios/create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/UsuarioController.php(49): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\UsuarioController->new()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:52:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:53:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:53:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:53:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:54:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:54:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:58:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:59:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:59:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 03:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 03:59:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:00:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:00:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:00:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:01:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:01:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 04:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 04:02:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 06:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 06:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 06:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 06:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 15:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 15:56:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 16:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-28 16:44:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PublicacionController::$session is deprecated in APPPATH/Controllers/Admin/PublicacionController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Admin\PublicacionController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 23:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 23:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 23:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 23:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 23:31:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'useradmin'@'localhost' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#13 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#14 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#15 {main}
+CRITICAL - 2024-03-28 23:31:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+ 7 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 8 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+ERROR - 2024-03-28 23:33:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'useradmin'@'localhost' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-28 23:35:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'useradmin'@'%' to database 'webupn' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'%' to database 'webupn' in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2024-03-28 23:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 23:36:49 --> mysqli_sql_exception: Table 'webupn.usuarios' doesn't exist in /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+#7 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+#8 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+#9 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 /media/degante/DEVELOPMENT/en desarrollo/webupn/app/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+#11 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#12 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#13 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#14 /media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 /media/degante/DEVELOPMENT/en desarrollo/webupn/system/Commands/Server/rewrite.php(47): require_once('...')
+#16 {main}
+CRITICAL - 2024-03-28 23:36:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.usuarios' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 23:36:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'webupn.usuarios' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+ 8 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 9 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+10 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+CRITICAL - 2024-03-28 23:36:49 --> [Caused by] mysqli_sql_exception: Table 'webupn.usuarios' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Validation/Userrules.php(11): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/Validation/Validation.php(328): App\Validation\Userrules->validateUser()
+ 9 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+10 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+11 APPPATH/Controllers/UserController.php(28): CodeIgniter\Controller->validate()
+12 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+13 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/en desarrollo/webupn/public/index.php')
+INFO - 2024-03-28 23:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 23:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
